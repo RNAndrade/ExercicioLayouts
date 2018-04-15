@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/RED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_red_dark"
+        android:padding="10dp"
+        android:text="RED" />
+
+    <TextView
+        android:id="@+id/ORANGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="10dp"
+        android:text="ORANGE" />
+
+    <TextView
+        android:id="@+id/YELLOW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffe433"
+        android:padding="10dp"
+        android:text="YELLOW" />
+
+    <TextView
+        android:id="@+id/GREEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RED"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/BLUE"
+        android:background="#25f809"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="GREEN" />
+
+    <TextView
+        android:id="@+id/BLUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RED"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="BLUE"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/INDIGO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RED"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/BLUE"
+        android:background="#4b1082"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="INDIGO"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/VIOLET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BLUE"
+        android:background="#ce33e6"
+        android:padding="10dp"
+        android:text="VIOLET"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
